@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2008/03/COLLADASchema" version="1.5.0">
+	<asset>
+		<contributor>
+			<authoring_tool>URDF Collada Writer</authoring_tool>
+		</contributor>
+		<created>2015-03-22T06:44:50.000000</created>
+		<modified>2015-03-22T06:44:50.000000</modified>
+		<unit/>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_visual_scenes id="vscenes">
+		<visual_scene id="vscene" name="URDF Visual Scene">
+			<node id="visual0" name="lr1_robot" sid="visual0">
+				<node id="vkmodel0_node13" name="support_link" sid="node13">
+					<translate>0 0 0</translate>
+					<rotate>1 0 0 0</rotate>
+					<node id="vkmodel0_node14" name="waist_link" sid="node14">
+						<translate>-0 -0 -0</translate>
+						<rotate>1 0 0 0</rotate>
+						<translate>0 0 0.0165</translate>
+						<rotate>1 0 0 0</rotate>
+						<rotate sid="node_support_waist_joint_axis0">0 0 1 0</rotate>
+						<translate>0 0 0</translate>
+						<rotate>1 0 0 0</rotate>
+						<node id="vkmodel0_node0" name="bumblebee2_link" sid="node0">
+							<translate>-0 -0 -0</translate>
+							<rotate>1 0 0 0</rotate>
+							<translate>-0.05082 0 0.522</translate>
+							<rotate>1 0 0 0</rotate>
+							<rotate sid="node_bumblebee2_joint_axis0">0 0 0 0</rotate>
+							<translate>0 0 0</translate>
+							<rotate>1 0 0 0</rotate>
+							<node id="vkmodel0_node2" name="left_camera_frame" sid="node2">
+								<translate>-0 -0 -0</translate>
+								<rotate>1 0 0 0</rotate>
+								<translate>0 0.06 0.0175</translate>
+								<rotate>-0.5773502692463787 0.5773502690761201 -0.5773502692463787 119.9999999804898</rotate>
+								<rotate sid="node_left_camera_frame_joint_axis0">0 0 0 0</rotate>
+								<translate>0 0 0</translate>
+								<rotate>1 0 0 0</rotate>
+							</node>
+							<node id="vkmodel0_node7" name="right_camera_frame" sid="node7">
+								<translate>-0 -0 -0</translate>
+								<rotate>1 0 0 0</rotate>
+								<translate>0 -0.06 0.0175</translate>
+								<rotate>-0.5773502692463787 0.5773502690761201 -0.5773502692463787 119.9999999804898</rotate>
+								<rotate sid="node_right_camera_frame_joint_axis0">0 0 0 0</rotate>
+								<translate>0 0 0</translate>
+								<rotate>1 0 0 0</rotate>
+							</node>
+						</node>
+						<node id="vkmodel0_node4" name="left_lift_link" sid="node4">
+							<translate>-0 -0 -0</translate>
+							<rotate>1 0 0 0</rotate>
+							<translate>0.02782 0.19982 0.126</translate>
+							<rotate>0 0 1 44.99867283508704</rotate>
+							<translate sid="node_waist_left_lift_joint_axis0">0 0 0</translate>
+							<translate>0 0 0</translate>
+							<rotate>1 0 0 0</rotate>
+							<node id="vkmodel0_node5" name="left_upperarm_link" sid="node5">
+								<translate>-0 -0 -0</translate>
+								<rotate>1 0 0 0</rotate>
+								<translate>0 0 0.0015</translate>
+								<rotate>1 0 0 0</rotate>
+								<rotate sid="node_left_lift_upperarm_joint_axis0">0 0 1 0</rotate>
+								<translate>0 0 0</translate>
+								<rotate>1 0 0 0</rotate>
+								<node id="vkmodel0_node3" name="left_forearm_link" sid="node3">
+									<translate>-0 -0 -0</translate>
+									<rotate>1 0 0 0</rotate>
+									<translate>0.33 0 0.0245</translate>
+									<rotate>1 0 0 0</rotate>
+									<rotate sid="node_left_upperarm_forearm_joint_axis0">0 0 1 0</rotate>
+									<translate>0 0 0</translate>
+									<rotate>1 0 0 0</rotate>
+									<node id="vkmodel0_node1" name="left_arm_end_frame" sid="node1">
+										<translate>-0 -0 -0</translate>
+										<rotate>1 0 0 0</rotate>
+										<translate>0.25 0 0.0125</translate>
+										<rotate>1 0 0 0</rotate>
+										<rotate sid="node_left_arm_end_frame_joint_axis0">0 0 0 0</rotate>
+										<translate>0 0 0</translate>
+										<rotate>1 0 0 0</rotate>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node id="vkmodel0_node9" name="right_lift_link" sid="node9">
+							<translate>-0 -0 -0</translate>
+							<rotate>1 0 0 0</rotate>
+							<translate>0.02782 -0.19982 0.126</translate>
+							<rotate>0 0 -1 44.99867283508704</rotate>
+							<translate sid="node_waist_right_lift_joint_axis0">0 0 0</translate>
+							<translate>0 0 0</translate>
+							<rotate>1 0 0 0</rotate>
+							<node id="vkmodel0_node10" name="right_upperarm_link" sid="node10">
+								<translate>-0 -0 -0</translate>
+								<rotate>1 0 0 0</rotate>
+								<translate>0 0 0.0015</translate>
+								<rotate>1 0 0 0</rotate>
+								<rotate sid="node_right_lift_upperarm_joint_axis0">0 0 1 0</rotate>
+								<translate>0 0 0</translate>
+								<rotate>1 0 0 0</rotate>
+								<node id="vkmodel0_node8" name="right_forearm_link" sid="node8">
+									<translate>-0 -0 -0</translate>
+									<rotate>1 0 0 0</rotate>
+									<translate>0.33 0 0.0245</translate>
+									<rotate>1 0 0 0</rotate>
+									<rotate sid="node_right_upperarm_forearm_joint_axis0">0 0 1 0</rotate>
+									<translate>0 0 0</translate>
+									<rotate>1 0 0 0</rotate>
+									<node id="vkmodel0_node12" name="sawwrist_link" sid="node12">
+										<translate>-0 -0 -0</translate>
+										<rotate>1 0 0 0</rotate>
+										<translate>0.25 0 0.0125</translate>
+										<rotate>1 0 0 0</rotate>
+										<rotate sid="node_arm_wrist_joint_axis0">1 0 0 0</rotate>
+										<translate>0 0 0</translate>
+										<rotate>1 0 0 0</rotate>
+										<node id="vkmodel0_node11" name="saw_link" sid="node11">
+											<translate>-0 -0 -0</translate>
+											<rotate>1 0 0 0</rotate>
+											<translate>0.134 0 0</translate>
+											<rotate>1 0 0 0</rotate>
+											<rotate sid="node_saw_joint_axis0">0 1 0 0</rotate>
+											<translate>0 0 0</translate>
+											<rotate>1 0 0 0</rotate>
+										</node>
+									</node>
+									<node id="vkmodel0_node6" name="right_arm_end_frame" sid="node6">
+										<translate>-0 -0 -0</translate>
+										<rotate>1 0 0 0</rotate>
+										<translate>0.25 0 0.0125</translate>
+										<rotate>1 0 0 0</rotate>
+										<rotate sid="node_right_arm_end_frame_joint_axis0">0 0 0 0</rotate>
+										<translate>0 0 0</translate>
+										<rotate>1 0 0 0</rotate>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<library_geometries id="geometries"/>
+	<library_effects id="effects"/>
+	<library_materials id="materials"/>
+	<library_kinematics_models id="kmodels">
+		<kinematics_model id="kmodel0" name="lr1_robot">
+			<technique_common>
+				<joint name="arm_wrist_joint" sid="arm_wrist_joint">
+					<revolute sid="axis0">
+						<axis>1 0 0</axis>
+						<limits>
+							<min>-89.99999998310368</min>
+							<max>89.99999998310368</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="bumblebee2_joint" sid="bumblebee2_joint">
+					<revolute sid="axis0">
+						<axis>0 0 0</axis>
+						<limits>
+							<min>0</min>
+							<max>0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="left_arm_end_frame_joint" sid="left_arm_end_frame_joint">
+					<revolute sid="axis0">
+						<axis>0 0 0</axis>
+						<limits>
+							<min>0</min>
+							<max>0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="left_camera_frame_joint" sid="left_camera_frame_joint">
+					<revolute sid="axis0">
+						<axis>0 0 0</axis>
+						<limits>
+							<min>0</min>
+							<max>0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="left_lift_upperarm_joint" sid="left_lift_upperarm_joint">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-89.99734567017407</min>
+							<max>89.99734567017407</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="left_upperarm_forearm_joint" sid="left_upperarm_forearm_joint">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-134.9999999746555</min>
+							<max>0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="right_arm_end_frame_joint" sid="right_arm_end_frame_joint">
+					<revolute sid="axis0">
+						<axis>0 0 0</axis>
+						<limits>
+							<min>0</min>
+							<max>0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="right_camera_frame_joint" sid="right_camera_frame_joint">
+					<revolute sid="axis0">
+						<axis>0 0 0</axis>
+						<limits>
+							<min>0</min>
+							<max>0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="right_lift_upperarm_joint" sid="right_lift_upperarm_joint">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-89.99734567017407</min>
+							<max>89.99734567017407</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="right_upperarm_forearm_joint" sid="right_upperarm_forearm_joint">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>0</min>
+							<max>134.9999999746555</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="saw_joint" sid="saw_joint">
+					<revolute sid="axis0">
+						<axis>0 1 0</axis>
+						<limits>
+							<min>-89.99999998310368</min>
+							<max>89.99999998310368</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="support_waist_joint" sid="support_waist_joint">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+					</revolute>
+				</joint>
+				<joint name="waist_left_lift_joint" sid="waist_left_lift_joint">
+					<prismatic sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>0</min>
+							<max>0.3</max>
+						</limits>
+					</prismatic>
+				</joint>
+				<joint name="waist_right_lift_joint" sid="waist_right_lift_joint">
+					<prismatic sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>0</min>
+							<max>0.3</max>
+						</limits>
+					</prismatic>
+				</joint>
+				<link sid="support_link" name="support_link">
+					<attachment_full joint="kmodel0/support_waist_joint">
+						<translate>0 0 0.0165</translate>
+						<rotate>1 0 0 0</rotate>
+						<link sid="waist_link" name="waist_link">
+							<attachment_full joint="kmodel0/bumblebee2_joint">
+								<translate>-0.05082 0 0.522</translate>
+								<rotate>1 0 0 0</rotate>
+								<link sid="bumblebee2_link" name="bumblebee2_link">
+									<attachment_full joint="kmodel0/left_camera_frame_joint">
+										<translate>0 0.06 0.0175</translate>
+										<rotate>-0.5773502692463787 0.5773502690761201 -0.5773502692463787 119.9999999804898</rotate>
+										<link sid="left_camera_frame" name="left_camera_frame"/>
+									</attachment_full>
+									<attachment_full joint="kmodel0/right_camera_frame_joint">
+										<translate>0 -0.06 0.0175</translate>
+										<rotate>-0.5773502692463787 0.5773502690761201 -0.5773502692463787 119.9999999804898</rotate>
+										<link sid="right_camera_frame" name="right_camera_frame"/>
+									</attachment_full>
+								</link>
+							</attachment_full>
+							<attachment_full joint="kmodel0/waist_left_lift_joint">
+								<translate>0.02782 0.19982 0.126</translate>
+								<rotate>0 0 1 44.99867283508704</rotate>
+								<link sid="left_lift_link" name="left_lift_link">
+									<attachment_full joint="kmodel0/left_lift_upperarm_joint">
+										<translate>0 0 0.0015</translate>
+										<rotate>1 0 0 0</rotate>
+										<link sid="left_upperarm_link" name="left_upperarm_link">
+											<attachment_full joint="kmodel0/left_upperarm_forearm_joint">
+												<translate>0.33 0 0.0245</translate>
+												<rotate>1 0 0 0</rotate>
+												<link sid="left_forearm_link" name="left_forearm_link">
+													<attachment_full joint="kmodel0/left_arm_end_frame_joint">
+														<translate>0.25 0 0.0125</translate>
+														<rotate>1 0 0 0</rotate>
+														<link sid="left_arm_end_frame" name="left_arm_end_frame"/>
+													</attachment_full>
+												</link>
+											</attachment_full>
+										</link>
+									</attachment_full>
+								</link>
+							</attachment_full>
+							<attachment_full joint="kmodel0/waist_right_lift_joint">
+								<translate>0.02782 -0.19982 0.126</translate>
+								<rotate>0 0 -1 44.99867283508704</rotate>
+								<link sid="right_lift_link" name="right_lift_link">
+									<attachment_full joint="kmodel0/right_lift_upperarm_joint">
+										<translate>0 0 0.0015</translate>
+										<rotate>1 0 0 0</rotate>
+										<link sid="right_upperarm_link" name="right_upperarm_link">
+											<attachment_full joint="kmodel0/right_upperarm_forearm_joint">
+												<translate>0.33 0 0.0245</translate>
+												<rotate>1 0 0 0</rotate>
+												<link sid="right_forearm_link" name="right_forearm_link">
+													<attachment_full joint="kmodel0/arm_wrist_joint">
+														<translate>0.25 0 0.0125</translate>
+														<rotate>1 0 0 0</rotate>
+														<link sid="sawwrist_link" name="sawwrist_link">
+															<attachment_full joint="kmodel0/saw_joint">
+																<translate>0.134 0 0</translate>
+																<rotate>1 0 0 0</rotate>
+																<link sid="saw_link" name="saw_link"/>
+															</attachment_full>
+														</link>
+													</attachment_full>
+													<attachment_full joint="kmodel0/right_arm_end_frame_joint">
+														<translate>0.25 0 0.0125</translate>
+														<rotate>1 0 0 0</rotate>
+														<link sid="right_arm_end_frame" name="right_arm_end_frame"/>
+													</attachment_full>
+												</link>
+											</attachment_full>
+										</link>
+									</attachment_full>
+								</link>
+							</attachment_full>
+						</link>
+					</attachment_full>
+				</link>
+			</technique_common>
+		</kinematics_model>
+	</library_kinematics_models>
+	<library_articulated_systems id="asystems">
+		<articulated_system id="robot0_motion">
+			<motion>
+				<instance_articulated_system url="#robot0_kinematics">
+					<newparam sid="robot0_motion_kmodel0_inst">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_saw_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_saw_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_saw_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_saw_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_support_waist_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_support_waist_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_support_waist_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_support_waist_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0_value</SIDREF>
+					</newparam>
+				</instance_articulated_system>
+				<technique_common>
+					<axis_info axis="robot0_kinematics/axis_info_inst0">
+						<speed>
+							<float>0.5</float>
+						</speed>
+						<acceleration>
+							<float>1000</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst1"/>
+					<axis_info axis="robot0_kinematics/axis_info_inst2"/>
+					<axis_info axis="robot0_kinematics/axis_info_inst3"/>
+					<axis_info axis="robot0_kinematics/axis_info_inst4">
+						<speed>
+							<float>0.5</float>
+						</speed>
+						<acceleration>
+							<float>1000</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst5">
+						<speed>
+							<float>0.5</float>
+						</speed>
+						<acceleration>
+							<float>1000</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst6"/>
+					<axis_info axis="robot0_kinematics/axis_info_inst7"/>
+					<axis_info axis="robot0_kinematics/axis_info_inst8">
+						<speed>
+							<float>0.5</float>
+						</speed>
+						<acceleration>
+							<float>1000</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst9">
+						<speed>
+							<float>0.5</float>
+						</speed>
+						<acceleration>
+							<float>1000</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst10">
+						<speed>
+							<float>0.5</float>
+						</speed>
+						<acceleration>
+							<float>1000</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst11"/>
+					<axis_info axis="robot0_kinematics/axis_info_inst12">
+						<speed>
+							<float>0.5</float>
+						</speed>
+						<acceleration>
+							<float>1000</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst13">
+						<speed>
+							<float>0.5</float>
+						</speed>
+						<acceleration>
+							<float>1000</float>
+						</acceleration>
+					</axis_info>
+				</technique_common>
+			</motion>
+		</articulated_system>
+		<articulated_system id="robot0_kinematics">
+			<kinematics>
+				<instance_kinematics_model url="#kmodel0" sid="kmodel0_inst">
+					<newparam sid="robot0_kinematics_kmodel0_inst">
+						<SIDREF>robot0_kinematics/kmodel0_inst</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/arm_wrist_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/bumblebee2_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/left_arm_end_frame_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/left_camera_frame_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/left_lift_upperarm_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/left_upperarm_forearm_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/right_arm_end_frame_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/right_camera_frame_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/right_lift_upperarm_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/right_upperarm_forearm_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_saw_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/saw_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_saw_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_support_waist_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/support_waist_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_support_waist_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/waist_left_lift_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/waist_right_lift_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0_value">
+						<float>0</float>
+					</newparam>
+				</instance_kinematics_model>
+				<technique_common>
+					<axis_info sid="axis_info_inst0" axis="kmodel0/arm_wrist_joint/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>-89.99999998310368</float>
+							</min>
+							<max>
+								<float>89.99999998310368</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst1" axis="kmodel0/bumblebee2_joint/axis0">
+						<active>
+							<bool>false</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>0</float>
+							</min>
+							<max>
+								<float>0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst2" axis="kmodel0/left_arm_end_frame_joint/axis0">
+						<active>
+							<bool>false</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>0</float>
+							</min>
+							<max>
+								<float>0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst3" axis="kmodel0/left_camera_frame_joint/axis0">
+						<active>
+							<bool>false</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>0</float>
+							</min>
+							<max>
+								<float>0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst4" axis="kmodel0/left_lift_upperarm_joint/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>-89.99734567017407</float>
+							</min>
+							<max>
+								<float>89.99734567017407</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst5" axis="kmodel0/left_upperarm_forearm_joint/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>-134.9999999746555</float>
+							</min>
+							<max>
+								<float>0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst6" axis="kmodel0/right_arm_end_frame_joint/axis0">
+						<active>
+							<bool>false</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>0</float>
+							</min>
+							<max>
+								<float>0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst7" axis="kmodel0/right_camera_frame_joint/axis0">
+						<active>
+							<bool>false</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>0</float>
+							</min>
+							<max>
+								<float>0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst8" axis="kmodel0/right_lift_upperarm_joint/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>-89.99734567017407</float>
+							</min>
+							<max>
+								<float>89.99734567017407</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst9" axis="kmodel0/right_upperarm_forearm_joint/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>0</float>
+							</min>
+							<max>
+								<float>134.9999999746555</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst10" axis="kmodel0/saw_joint/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>-89.99999998310368</float>
+							</min>
+							<max>
+								<float>89.99999998310368</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst11" axis="kmodel0/support_waist_joint/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+					</axis_info>
+					<axis_info sid="axis_info_inst12" axis="kmodel0/waist_left_lift_joint/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>0</float>
+							</min>
+							<max>
+								<float>0.3</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst13" axis="kmodel0/waist_right_lift_joint/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min>
+								<float>0</float>
+							</min>
+							<max>
+								<float>0.3</float>
+							</max>
+						</limits>
+					</axis_info>
+				</technique_common>
+			</kinematics>
+		</articulated_system>
+	</library_articulated_systems>
+	<library_kinematics_scenes id="kscenes">
+		<kinematics_scene id="kscene" name="URDF Kinematics Scene">
+			<instance_articulated_system sid="robot0_motion_inst" url="#robot0_motion" name="lr1_robot">
+				<bind symbol="kscene_kmodel0_inst">
+					<param ref="robot0_motion/robot0_motion_kmodel0_inst"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_saw_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_saw_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_saw_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_saw_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_support_waist_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_support_waist_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_support_waist_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_support_waist_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0_value"/>
+				</bind>
+			</instance_articulated_system>
+		</kinematics_scene>
+	</library_kinematics_scenes>
+	<library_physics_scenes id="pscenes">
+		<physics_scene id="pscene" name="URDF Physics Scene">
+			<instance_physics_model url="#pmodel0" sid="pmodel0_inst" parent="#visual0">
+				<instance_rigid_body body="rigid0" target="#vkmodel0_node0"/>
+				<instance_rigid_body body="rigid1" target="#vkmodel0_node1"/>
+				<instance_rigid_body body="rigid2" target="#vkmodel0_node2"/>
+				<instance_rigid_body body="rigid3" target="#vkmodel0_node3"/>
+				<instance_rigid_body body="rigid4" target="#vkmodel0_node4"/>
+				<instance_rigid_body body="rigid5" target="#vkmodel0_node5"/>
+				<instance_rigid_body body="rigid6" target="#vkmodel0_node6"/>
+				<instance_rigid_body body="rigid7" target="#vkmodel0_node7"/>
+				<instance_rigid_body body="rigid8" target="#vkmodel0_node8"/>
+				<instance_rigid_body body="rigid9" target="#vkmodel0_node9"/>
+				<instance_rigid_body body="rigid10" target="#vkmodel0_node10"/>
+				<instance_rigid_body body="rigid11" target="#vkmodel0_node11"/>
+				<instance_rigid_body body="rigid12" target="#vkmodel0_node12"/>
+				<instance_rigid_body body="rigid13" target="#vkmodel0_node13"/>
+				<instance_rigid_body body="rigid14" target="#vkmodel0_node14"/>
+			</instance_physics_model>
+			<technique_common>
+				<gravity>0 0 0</gravity>
+			</technique_common>
+		</physics_scene>
+	</library_physics_scenes>
+	<library_physics_models id="pmodels">
+		<physics_model id="pmodel0" name="lr1_robot">
+			<rigid_body sid="rigid0" name="bumblebee2_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid1" name="left_arm_end_frame">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid2" name="left_camera_frame">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid3" name="left_forearm_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid4" name="left_lift_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid5" name="left_upperarm_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid6" name="right_arm_end_frame">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid7" name="right_camera_frame">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid8" name="right_forearm_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid9" name="right_lift_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid10" name="right_upperarm_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid11" name="saw_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid12" name="sawwrist_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid13" name="support_link">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid14" name="waist_link">
+				<technique_common/>
+			</rigid_body>
+		</physics_model>
+	</library_physics_models>
+	<scene>
+		<instance_physics_scene url="#pscene"/>
+		<instance_visual_scene url="#vscene"/>
+		<instance_kinematics_scene url="#kscene">
+			<bind_kinematics_model node="visual0/node13">
+				<param>kscene_kmodel0_inst</param>
+			</bind_kinematics_model>
+			<bind_joint_axis target="node13/node14/node9/node10/node12/node_arm_wrist_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_arm_wrist_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node0/node_bumblebee2_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_bumblebee2_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node14/node4/node5/node1/node_left_arm_end_frame_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_arm_end_frame_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node14/node2/node_left_camera_frame_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_camera_frame_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node14/node5/node_left_lift_upperarm_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_lift_upperarm_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node14/node4/node3/node_left_upperarm_forearm_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_left_upperarm_forearm_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node14/node9/node10/node6/node_right_arm_end_frame_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_arm_end_frame_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node14/node7/node_right_camera_frame_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_camera_frame_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node14/node10/node_right_lift_upperarm_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_lift_upperarm_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node14/node9/node8/node_right_upperarm_forearm_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_right_upperarm_forearm_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node14/node9/node10/node8/node11/node_saw_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_saw_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_saw_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node14/node_support_waist_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_support_waist_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_support_waist_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node4/node_waist_left_lift_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_waist_left_lift_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node13/node9/node_waist_right_lift_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_waist_right_lift_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+		</instance_kinematics_scene>
+	</scene>
+	<extra id="sensors" type="library_sensors">
+		<technique profile="OpenRAVE"/>
+	</extra>
+</COLLADA>

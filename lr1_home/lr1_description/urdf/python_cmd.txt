@@ -1,0 +1,1 @@
+python /usr/local/lib/python2.7/dist-packages/openravepy/_openravepy_0_9/ikfast.py --robot=lr1_robot_rounded.dae --iktype=translation3d --baselink=1 --eelink=8 --savefile=output_ikfast.cpp

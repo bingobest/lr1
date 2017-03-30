@@ -1,0 +1,5 @@
+robotjoints: [support_waist_joint, waist_left_lift_joint, left_lift_upperarm_joint,
+left_upperarm_forearm_joint, waist_right_lift_joint, right_lift_upperarm_joint,
+right_upperarm_forearm_joint, arm_wrist_joint,saw_joint]
+
+elmo_driver: {joints: [waist_left_lift_joint, left_lift_upperarm_joint, left_upperarm_forearm_joint]}

@@ -1,0 +1,8 @@
+<launch>
+
+   <!-- Bring up the arbotix driver with a configuration file appropriate to the robot -->
+   <node name="larm_controller" pkg="lr1_move" type="robot_controller.py" >
+      <rosparam command="load" file="$(find lr1_move)/launch/demo.yaml" />
+   </node>
+
+</launch>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<robot name="lr1_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Include all component files -->
+  <xacro:include filename="$(find lr1_description)/urdf/base.urdf.xacro" />
+  <xacro:include filename="$(find lr1_description)/urdf/arm.urdf.xacro" />
+  <xacro:include filename="$(find lr1_description)/urdf/bumblebee2.urdf.xacro" />
+  <xacro:include filename="$(find lr1_description)/urdf/saw.urdf.xacro" />
+  
+  <base/>
+
+  <arm side="left" reflect="1"/>
+
+  <arm side="right" reflect="-1"/>
+
+  <saw/>
+
+  <bumblebee2/>
+
+</robot>

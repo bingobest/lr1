@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<robot name="base" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <link name="support_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://lr1_description/meshes/support.STL" />
+      </geometry>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 -0.04"/>
+      <geometry>
+        <box size="0.45 0.45 0.08"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="support_waist_joint" type="continuous">
+    <axis xyz="0 0 1"/>
+    <origin rpy="0 0 0" xyz="0 0 0.0165"/>
+    <parent link="support_link"/>
+    <child link="waist_link"/>
+  </joint>
+
+  <link name="waist_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://lr1_description/meshes/waist.STL" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="lyellow">
+        <color rgba="0.33 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://lr1_description/meshes/waist_L.STL"/>
+      </geometry>
+    </collision>
+  </link>
+
+</robot>

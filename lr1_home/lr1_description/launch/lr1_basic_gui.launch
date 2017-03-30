@@ -1,0 +1,10 @@
+<launch>
+    <arg name="gui" default="true" />
+    <arg name="urdf_file" default="$(find xacro)/xacro.py '$(find lr1_description)/urdf/lr1_basic.xacro'" />
+
+    <param name="robot_description" command="$(arg urdf_file)" />
+
+	<param name="use_gui" value="$(arg gui)"/>
+	<node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find lr1_description)/urdf.rviz" required="true" />
+</launch>

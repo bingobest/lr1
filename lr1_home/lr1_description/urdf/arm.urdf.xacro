@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+
+<robot name="arm" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Define a number of dimensions using properties -->
+  <property name="PI" value="3.141592653" />
+
+  <macro name="arm" params="side reflect"> 
+    <!-- shoulder -->
+    <joint name="waist_${side}_lift_joint" type="prismatic">
+      <axis xyz="0 0 1"/>
+      <origin xyz="0.02782 ${reflect*0.19982} 0.126" rpy="0 0 ${reflect*0.785375}"/>
+      <limit lower="0" upper="0.3" velocity="0.5" effort="1000.0"/>
+      <parent link="waist_link"/>
+      <child link="${side}_lift_link"/>
+    </joint>
+
+    <link name="${side}_lift_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://lr1_description/meshes/lift.STL" />
+        </geometry>
+        <material name="blue">
+          <color rgba="0 0.67 1 1"/>
+        </material>
+      </visual>
+      <collision>
+        <origin rpy="0 0 0" xyz="0 0 -0.01"/>
+        <geometry>
+          <cylinder length="0.02" radius="0.043"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- bigarm -->
+    <joint name="${side}_lift_upperarm_joint" type="revolute">
+      <axis xyz="0 0 1"/>
+      <origin xyz="0 0 0.0015" rpy="0 0 0"/>
+      <limit lower="-1.57075" upper="1.57075" velocity="0.5" effort="1000.0"/>
+      <parent link="${side}_lift_link"/>
+      <child link="${side}_upperarm_link"/>
+    </joint>
+
+    <link name="${side}_upperarm_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://lr1_description/meshes/upperarm.STL" />
+        </geometry>
+        <material name="green">
+          <color rgba="0.33 0.67 0.5 1"/>
+        </material>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://lr1_description/meshes/upperarm_L.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- littlearm -->
+    <joint name="${side}_upperarm_forearm_joint" type="revolute">
+      <axis xyz="0 0 1"/>
+      <origin xyz="0.33 0 0.0245" rpy="0 0 0"/>
+      <limit lower="${(-1-reflect)*PI*3/8}" upper="${(1-reflect)*PI*3/8}" velocity="0.5" effort="1000.0"/>
+      <parent link="${side}_upperarm_link"/>
+      <child link="${side}_forearm_link"/>
+    </joint>
+
+    <link name="${side}_forearm_link">
+      <visual>
+        <geometry>
+          <mesh filename="package://lr1_description/meshes/forearm.STL" />
+        </geometry>
+        <material name="orange">
+          <color rgba="1 0.67 0.5 1"/>
+        </material>
+      </visual>
+      <collision>
+        <geometry>
+          <mesh filename="package://lr1_description/meshes/forearm_L.STL" />
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="${side}_arm_end_frame"/>
+    <joint name="${side}_arm_end_frame_joint" type="fixed">
+       <origin xyz="0.25 0 0.0125" rpy="0 0 0" />
+       <parent link="${side}_forearm_link" />
+       <child link="${side}_arm_end_frame" />
+    </joint>
+
+  </macro>
+
+</robot>
